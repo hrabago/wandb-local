@@ -248,3 +248,4 @@ resource "kubernetes_ingress" "wandb_ingress" {
     }
   }
 }
+
