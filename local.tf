@@ -161,3 +161,4 @@ output "host" {
 output "next_steps" {
   value = local.k8s_managed ? "W&B deployed.  Follow the instructions in README.md to setup SSL (run kubectl apply -f cert-issuer.yaml)" : local.priv_instructions
 }
+
